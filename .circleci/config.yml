@@ -7,7 +7,7 @@ jobs:
     docker:
       - image: ponylang/ponyc-ci-x86-64-unknown-linux-gnu-builder:20191106
     steps:
-      - echo Not using CircleCI any more
+      - run: echo Not using CircleCI any more
 
 workflows:
   version: 2.1
